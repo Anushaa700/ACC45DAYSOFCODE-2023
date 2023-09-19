@@ -8,9 +8,9 @@ int main() {
 	
 	for(int i = 0;i < T;i++) {
 	    cin>>X>>Y>>Z;
-	    int Total;
-	    Total = ((X*5) + (Y*10)) / Z;
-	    cout<<Total<<endl;
+	    int Number_Of_Chocolates;
+	    Number_Of_Chocolates = ((X*5) + (Y*10)) / Z;
+	    cout<<Number_Of_Chocolates<<endl;
 	}
 	return 0;
 }
